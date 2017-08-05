@@ -1,0 +1,27 @@
+
+
+Antennas always surprise me.  My intuition just doesn't work very
+well.  For instance, you would think that the big radials I put on the
+70 cm beacon antenna (figure at left) would block the RF radiated
+below it to at least some degree.  Modeling it with the [[http://www.qsl.net/4nec2/][4NEC2]] code
+shows that it doesn't!  Not at all.  It's supposed to act like a
+ground plane, and RF doesn't go through ground planes...
+
+<<old-antenna.png>>
+
+The radiation pattern I got from 4NEC2 (in the vertical plane) is
+shown at right.  The symmetry from top to bottom is precise.  Weird.
+Another thing I learned from 4NEC2: it turns out that the angle of the
+radials with respect to the antenna vertical really does matter.  I
+thought you could do just about anything you wanted with them, but
+while it doesn't affect the radiation pattern of the antenna, it does
+affect its impedance at the feed point.
+
+<<radiation-pattern.png>>
+
+So here's the new antenna, shown at left below.  The radials go down
+at about 45 degrees, to give 50 ohms at the feed point.  It's back to
+bending metal, then.
+
+<<new-antenna.png>>
+

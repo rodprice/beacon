@@ -1,0 +1,20 @@
+{
+    "assy_dir":"assembly",
+    "author":"Rodney Price",
+    "bom_dir":"bom",
+    "company":"Serpentine Research LLC",
+    "date_create":"13 Jul 2017",
+    "date_update":"13 Jul 2017",
+    "description":"A simple one-watt beacon on the 70 cm band",
+    "email":"rod@shinypenny.org",
+    "gerbers_dir":"gerbers",
+    "lib_dir":"/home/rod/working/wickerlib/libraries",
+    "license":"CERN Open Hardware License v1.2",
+    "projname":"beacon",
+    "template_dir":"/home/rod/working/wickerlib/templates",
+    "template_kicad":"wickerbox-2layer",
+    "template_latex":"wickerbox.tex",
+    "title":"70 cm beacon",
+    "version":"1.0",
+    "website":"http://www.shinypenny.org"
+}
